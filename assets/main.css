@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Luxurious+Script&family=Scada&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.flag-body {
+  min-height: 100vh;
+  background-image: linear-gradient(hsla(0,0%,0%, .1)	, hsla(0,0%,0%, .1)	), url("./flag.png");
+
+}
+
+.nav{
+  padding: 2vw;
+  background-color: #C70F2E;
+  margin: 0;
+font-family: 'luxurious script';
+}
+
+h1 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+  font-family: 'scada';
+}
+.historyimage {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 10px;
+place-items: center center;
+  min-height: 200px;
+
+  /* background-image: url("./map.jpg");
+background-repeat:no-repeat;
+        background-size: contain; */
+}
+.factsimage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  place-items: center center;
+    min-height: 200px;
+}
+.civilimage img {
+  background-image: url("./civil.jpg");
+background-repeat:no-repeat;
+        background-size:100% 100vh;
+        height: 1000px;
+        width: 1263px;
+}
+.nav1{
+  padding: 2vw;
+  background-color: #C70F2E;
+  margin: 0;
+font-family: 'scada';
+}
+.nav2{
+  padding: 2vw;
+  background-color: #C70F2E;
+  margin: 0;
+font-family: 'scada';
+}
+.nav3{
+  padding: 2vw;
+  background-color: #C70F2E;
+  margin: 0;
+font-family: 'scada';
+}
